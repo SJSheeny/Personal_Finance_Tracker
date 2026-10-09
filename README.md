@@ -42,13 +42,13 @@ Personal Finance Tracker is a console-based application developed in C++ that he
    **On Windows:**
 
    ```bash
-   tracker.exe
+   personal_finance_tracker.exe
    ```
 
    **On Linux or macOS:**
 
    ```bash
-   ./tracker
+   ./personal_finance_tracker
    ```
 
 **Note:** Make sure the source filename matches `personal_finance_tracker.cpp`. If your file has a different extension or name, update the compile command accordingly.
