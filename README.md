@@ -34,37 +34,38 @@ Personal Finance Tracker is a console-based application developed in C++ that he
 4. Compile the source file:
 
    ```bash
-   g++ "Personal Finance Tracker.cpp" -o tracker
+   g++ personal_finance_tracker.cpp -o tracker
    ```
 
-5. Run the program:
+5. Run the program.
 
-   On Windows:
+   **On Windows:**
 
    ```bash
    tracker.exe
    ```
 
-   On Linux or macOS:
+   **On Linux or macOS:**
 
    ```bash
    ./tracker
    ```
 
-**Note:** Replace `Personal Finance Tracker.cpp` in the compile command with your actual source filename if it is different.
+**Note:** Make sure the source filename matches `personal_finance_tracker.cpp`. If your file has a different extension or name, update the compile command accordingly.
 
 ## Data Storage
 
-The application stores user credentials in `user.txt`, transaction records in user-specific data files and savings goals in separate user-specific files. These files are created when the program saves data.
+The application stores user credentials in `user.txt`, transaction records in user-specific data files and savings goals in separate user-specific files. These files are used to save and retrieve data between sessions.
+
+## Learning Outcomes
+
+* Practiced object-oriented programming using classes and inheritance.
+* Applied file handling to store and retrieve user data.
+* Used vectors and structures to manage transaction records.
+* Implemented calculations for income, expenses and savings goals.
+* Practiced input validation and menu-driven program design.
 
 ## Project Type
 
 Personal C++ programming project.
 
-## Learning Outcomes
-
-* Practiced object-oriented programming through classes and inheritance.
-* Applied file handling to store and retrieve user data.
-* Used vectors and structures to manage transaction records.
-* Implemented calculations for income, expenses and savings goals.
-* Practiced input validation and menu-driven program design.
